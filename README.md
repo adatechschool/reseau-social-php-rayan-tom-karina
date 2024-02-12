@@ -1,16 +1,16 @@
  
 
-Social Network 
+SOCIAL NETWORK
 
   
 
-Description 
+--DESCRIPTION--
 
 Le projet de Réseau Social est une plateforme web développée en PHP avec une base de données pour permettre aux utilisateurs de s'authentifier, de gérer leurs sessions et de publier des messages. Le site offre un mur où les utilisateurs peuvent consulter les derniers messages de chaque utilisateur, similaire à Facebook. 
 
-  
 
-    - 	Installation 
+		
+--INSTALATION--
 
 1. Téléchargez le projet depuis le dépôt Git. 
 
@@ -20,8 +20,9 @@ Le projet de Réseau Social est une plateforme web développée en PHP avec une 
 
 4. Lancez le serveur local et accédez au projet via votre navigateur. 
 
+
   
-    -    Fonctionnalités 
+--FONCTIONALITE--
 
 Authentification : Les utilisateurs peuvent s'identifier pour accéder à leur messagerie personnelle. 
 
@@ -39,7 +40,8 @@ Dynamisme du site : Les noms d'utilisateurs, les nombres de likes, les liens et 
 
   
 
-       -	Utilisation 
+
+--UTILISATION--
 
 1. Accédez au site web via votre navigateur. 
 
@@ -51,9 +53,11 @@ Dynamisme du site : Les noms d'utilisateurs, les nombres de likes, les liens et 
 
 5. Utilisez les hashtags pour découvrir des messages similaires ou pour catégoriser vos propres publications. 
 
- 
 
-Ressources générales 
+
+	
+
+--RESOURCES UTILISEES--
 
 Documentation PHP : php.net 
 
@@ -61,9 +65,11 @@ Tutoriel PHP : php.net
 
 Tutoriel MySQL : mysqltutorial.org 
 
- 
 
-Compétences 
+
+	
+
+--COMPETENCES--
 
 Génération de code HTML à partir de PHP. 
 
@@ -75,9 +81,10 @@ Requêtes et interactions avec une base de données MySQL.
 
  
 
+
   
 
-Contribuer 
+--CONSTRIBUER--
 
 Votre contribution au projet est la bienvenue ! Vous pouvez : 
 
@@ -87,16 +94,24 @@ Votre contribution au projet est la bienvenue ! Vous pouvez :
 
 - Envoyer des pull requests pour corriger des problèmes ou ajouter des fonctionnalités. 
 
+
+
+		
+
+--LICENCE--
+
   
 
-Licence 
-
   
 
-  
 
-Contact 
+
+--CONTACTS--
 
 Pour toute question ou suggestion, n'hésitez pas à nous contacter à l'adresse email@example.com. 
+Karina Félicité
+Rayann Fraboulet
+Tom Benchetrit
+
 
  
