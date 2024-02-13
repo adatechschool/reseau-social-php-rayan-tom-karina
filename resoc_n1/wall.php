@@ -148,7 +148,7 @@
                     ?>                
                     <article>
                         <h3>
-                            <time><?php echo strftime('%e ', strtotime($post['created'])) . traduireMois(strftime('%B', strtotime($post['created']))) . strftime(' %Y à %Hh%M', strtotime($post['created'])) ?></time>
+                            <time><?php echo $post['created'] ?></time>
                         </h3>
                         <address>par <?php echo $post['author_name'] ?></address>
                         <div>
@@ -156,20 +156,7 @@
                         </div>                                            
                         <footer>
                             <small><?php echo $post['like_number'] ?> ♥</small>
-                            <?php 
-                                $tags = explode(',', $post['taglist']);
-                                foreach ($tags as $tag_name) {
-                                    // Récupérer l'ID du tag à partir de son nom
-                                    $tag_query = "SELECT id FROM tags WHERE label = '$tag_name'";
-                                    $tag_result = $mysqli->query($tag_query);
-                                    if ($tag_result && $tag_result->num_rows > 0) {
-                                        $tag_row = $tag_result->fetch_assoc();
-                                        $tag_id = $tag_row['id'];
-                                        // Génération du lien avec l'ID du tag
-                                        echo '<a href="tags.php?tag_id=' . $tag_id . '">#' . $tag_name . '</a>, ';
-                                    }
-                                } 
-                            ?>
+                            <?php echo $post['taglist'] ?>
                         </footer>
                     </article>
                 <?php } ?>
