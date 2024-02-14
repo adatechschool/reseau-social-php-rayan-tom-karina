@@ -1,6 +1,6 @@
  
 
-SOCIAL NETWORK
+RESEAU SOCIAL : SOCIALSPHERE
 
   
 
@@ -95,14 +95,6 @@ Votre contribution au projet est la bienvenue ! Vous pouvez :
 - Envoyer des pull requests pour corriger des problèmes ou ajouter des fonctionnalités. 
 
 
-
-		
-
---LICENCE--
-
-  
-
-  
 
 
 
